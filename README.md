@@ -5,6 +5,10 @@ technology and device payloads into a consistent universal context. External
 mapping rules let developers adapt integrations without hardcoding each
 source-specific transformation into the kernel.
 
+## Note on the Name:
+
+Workspace OS (WOS) is NOT a standalone Operating System (like Linux or Windows). It is a lightweight Universal API Middleware & Data Translation Engine. The "OS" suffix is purely a stylistic choice reflecting its role as a central orchestration layer for routing and normalizing data across diverse software ecosystems.
+
 ## Vision & Philosophy
 
 ### The problem
