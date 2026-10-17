@@ -1,0 +1,10 @@
+{
+  "sensor_v1": {
+    "source": "factory_floor",
+    "action": "temperature_alert",
+    "parameters": {
+      "current_temp": "data.sensor.temperature",
+      "device_state": "data.status"
+    }
+  }
+}

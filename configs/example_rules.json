@@ -1,0 +1,21 @@
+{
+  "example-device": {
+    "source": "environment-sensor",
+    "action": "report-reading",
+    "parameters": {
+      "device_name": {
+        "path": "device.name",
+        "cast": "str",
+        "format": "uppercase"
+      },
+      "temperature_f": {
+        "path": "reading.temperature_c",
+        "cast": "float",
+        "multiply": 1.8,
+        "add": 32,
+        "format": ".1f",
+        "unit": "°F"
+      }
+    }
+  }
+}
